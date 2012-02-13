@@ -1,0 +1,3 @@
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = https://github.com/skwp/vim-rspec.git
