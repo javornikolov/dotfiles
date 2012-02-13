@@ -1,3 +1,6 @@
+call pathogen#infect()    " Pathogen plugin (https://github.com/tpope/vim-pathogen)
+call pathogen#helptags()
+
 set nocompatible          " We're running Vim, not Vi!
 syntax on                 " Enable syntax highlighting
 filetype plugin indent on " Enable filetype-specific indenting and plugins
