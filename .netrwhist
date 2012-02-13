@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/u02/dwn/pbzip2/pbzip2-1.1.0-customized'
+let g:netrw_dirhist_2='/usr/share/scmbug/lib/Scmbug/Daemon'
+let g:netrw_dirhist_3='/home/javor/work/projects/cpp/stringworks'
+let g:netrw_dirhist_4='/home/javor/work/projects/debpackaging/hello/myhello/hello-2.5/contrib'
+let g:netrw_dirhist_5='/etc/apt/sources.list.d'
