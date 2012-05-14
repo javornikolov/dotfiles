@@ -18,6 +18,14 @@ augroup END
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
 
-set ruler  " Ruler on
-set nu  " Line numbers on
+set ruler   " Ruler on
+" set number  " Line numbers on
 
+set hidden
+
+set hlsearch      " highlight search terms
+set incsearch     " show search matches as you type
+set showmatch     " set show matching parenthesis
+
+let g:RspecBin = "rspec"
+" let g:RspecSplitHorizontal = 0
