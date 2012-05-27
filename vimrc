@@ -29,3 +29,5 @@ set showmatch     " set show matching parenthesis
 
 let g:RspecBin = "rspec"
 " let g:RspecSplitHorizontal = 0
+
+let g:pandoc_no_folding = 1
