@@ -1,0 +1,3 @@
+" Include vimrc config from .vim subfolder
+execute "source " . expand( "<sfile>:p:h" ) . "/.vim/vimrc.vim"
+
