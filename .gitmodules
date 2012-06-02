@@ -1,27 +1,27 @@
-[submodule "bundle/rspec"]
-	path = bundle/rspec
+[submodule "dotfiles/vim/bundle/rspec"]
+	path = dotfiles/vim/bundle/rspec
 	url = https://github.com/skwp/vim-rspec.git
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
+[submodule "dotfiles/vim/bundle/vim-ruby"]
+	path = dotfiles/vim/bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
+[submodule "dotfiles/vim/bundle/command-t"]
+	path = dotfiles/vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
+[submodule "dotfiles/vim/bundle/vim-rails"]
+	path = dotfiles/vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "bundle/snipmate.vim"]
-	path = bundle/snipmate.vim
+[submodule "dotfiles/vim/bundle/snipmate.vim"]
+	path = dotfiles/vim/bundle/snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
-[submodule "bundle/vim-pandoc"]
-	path = bundle/vim-pandoc
+[submodule "dotfiles/vim/bundle/vim-pandoc"]
+	path = dotfiles/vim/bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "dotfiles/vim/bundle/nerdtree"]
+	path = dotfiles/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/vim-conque"]
-	path = bundle/vim-conque
+[submodule "dotfiles/vim/bundle/vim-conque"]
+	path = dotfiles/vim/bundle/vim-conque
 	url = https://github.com/rson/vim-conque.git
-[submodule "bundle/vim-ruby-conque"]
-	path = bundle/vim-ruby-conque
+[submodule "dotfiles/vim/bundle/vim-ruby-conque"]
+	path = dotfiles/vim/bundle/vim-ruby-conque
 	url = https://github.com/skwp/vim-ruby-conque.git
