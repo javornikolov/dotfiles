@@ -1,5 +1,7 @@
-git clone git://github.com/..../dotvim.git ~/.vim
+git clone git://github.com/..../dotfiles.git ~/.dotfiles
 
 Create symlinks:
-ln -s ~/dotfiles/vimrc ~/.vimrc
+cd ~/.dotfiles
+git submodule update --init --recursive
+rake install
 
