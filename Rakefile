@@ -18,9 +18,9 @@ task :install do
 	end
 end
 
-#def home() Dir.home end
+def home() Dir.home end
 # def home() ENV['HOME'] end
-def home() "/tmp/dotfiles" end
+#def home() "/tmp/dotfiles" end
 def home_slash(name) File.join(home, name) end
 
 def here( *paths )
