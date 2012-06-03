@@ -6,12 +6,7 @@ desc "Install into the users home"
 task :install do
 	Dir[here( 'home/*' )].each do |entry|
 		file = File.basename( entry )
-		case file
-			when 'Rakefile', 'README'
-				next
-			else
-				link_file( entry, home_slash( ".#{file}" ) )
-		end
+		link_file( entry, home_slash( ".#{file}" ) ) unless ignore_file?( file )
 	end
 end
 
@@ -21,6 +16,10 @@ def home_slash( name ) File.join( home, name ) end
 
 def here( *paths )
 	File.expand_path( File.join( File.dirname( __FILE__ ), *paths ) )
+end
+
+def ignore_file?( file )
+	[ 'Rakefile', 'README', 'README.md' ].include?( file )
 end
 
 def link_file( source, target )
