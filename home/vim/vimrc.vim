@@ -5,15 +5,15 @@ set nocompatible          " We're running Vim, not Vi!
 syntax on                 " Enable syntax highlighting
 filetype plugin indent on " Enable filetype-specific indenting and plugins
 
-" Load matchit (% to bounce from do to end, etc.)
-runtime! macros/matchit.vim
+" Indentation - use hard TAB only (display it as 4 spaces)
+set tabstop=4 shiftwidth=4 noexpandtab
 
-augroup myfiletypes
+" augroup myfiletypes
 	" Clear old autocmds in group
-	autocmd!
-	" autoindent with two spaces, always expand tabs
-	autocmd FileType ruby,eruby,yaml set ai tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
-augroup END
+	" autocmd!
+	" Autoindent & line numbers on
+	" autocmd FileType ruby,eruby,yaml,sql set ai number
+" augroup END
 
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
@@ -31,3 +31,4 @@ let g:RspecBin = "rspec"
 " let g:RspecSplitHorizontal = 0
 
 let g:pandoc_no_folding = 1
+
