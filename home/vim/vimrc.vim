@@ -32,3 +32,9 @@ let g:RspecBin = "rspec"
 
 let g:pandoc_no_folding = 1
 
+" Tab and End of line characters
+set listchars=tab:▸\ ,eol:¬
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
