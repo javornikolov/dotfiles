@@ -18,14 +18,17 @@ set tabstop=4 shiftwidth=4 noexpandtab
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
 
-set ruler   " Ruler on
-" set number  " Line numbers on
-
 set hidden
+
+set ruler   " Ruler on
+set number  " Line numbers on
 
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 set showmatch     " set show matching parenthesis
+
+set nowrap        " Don't wrap lines
+set list          " Show spaces, tabs, new-lines
 
 let g:RspecBin = "rspec"
 " let g:RspecSplitHorizontal = 0
@@ -37,4 +40,30 @@ set listchars=tab:▸\ ,eol:¬
 "Invisible character colors
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Background and Color scheme (solarized)
+"
+if has('gui_running')
+	set background=dark
+	" set guifont=Ubuntu\ Mono\ for\ Powerline\ 11
+else
+	set t_Co=256
+	set background=dark
+	let g:solarized_termcolors=256
+endif
+
+syntax enable
+let g:solarized_visibility = 'low'
+colorscheme solarized
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Powerline
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+let g:Powerline_symbols = 'fancy'
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
