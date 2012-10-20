@@ -25,3 +25,12 @@
 [submodule "home/vim/bundle/vim-ruby-conque"]
 	path = home/vim/bundle/vim-ruby-conque
 	url = https://github.com/skwp/vim-ruby-conque.git
+[submodule "home/vim/bundle/colors"]
+	path = home/vim/bundle/colors
+	url = https://github.com/squil/vim_colors.git
+[submodule "home/vim/bundle/vim-colors-solarized"]
+	path = home/vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "home/vim/bundle/vundle"]
+	path = home/vim/bundle/vundle
+	url = http://github.com/gmarik/vundle.git
