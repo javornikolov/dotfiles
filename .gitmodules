@@ -34,3 +34,6 @@
 [submodule "home/vim/bundle/vundle"]
 	path = home/vim/bundle/vundle
 	url = http://github.com/gmarik/vundle.git
+[submodule "home/vim/bundle/vim-powerline"]
+	path = home/vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
