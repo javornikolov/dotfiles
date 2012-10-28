@@ -10,9 +10,6 @@
 [submodule "home/vim/bundle/vim-rails"]
 	path = home/vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "home/vim/bundle/snipmate.vim"]
-	path = home/vim/bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
 [submodule "home/vim/bundle/vim-pandoc"]
 	path = home/vim/bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
@@ -37,3 +34,42 @@
 [submodule "home/vim/bundle/vim-powerline"]
 	path = home/vim/bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "home/vim/bundle/python-mode"]
+	path = home/vim/bundle/python-mode
+	url = git://github.com/klen/python-mode.git
+[submodule "home/vim/bundle/pytest.vim"]
+	path = home/vim/bundle/pytest.vim
+	url = https://github.com/alfredodeza/pytest.vim.git
+[submodule "home/vim/bundle/Align"]
+	path = home/vim/bundle/Align
+	url = https://github.com/vim-scripts/Align.git
+[submodule "home/vim/bundle/tabular"]
+	path = home/vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule "home/vim/bundle/rope-vim"]
+	path = home/vim/bundle/rope-vim
+	url = https://github.com/klen/rope-vim
+[submodule "home/vim/bundle/syntastic"]
+	path = home/vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "home/vim/bundle/tagbar"]
+	path = home/vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "home/vim/bundle/gundo"]
+	path = home/vim/bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git
+[submodule "home/vim/bundle/tlib_vim"]
+	path = home/vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "home/vim/bundle/vim-addon-mw-utils"]
+	path = home/vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "home/vim/bundle/snipmate-snippets"]
+	path = home/vim/bundle/snipmate-snippets
+	url = https://github.com/honza/snipmate-snippets.git
+[submodule "home/vim/bundle/vim-snipmate"]
+	path = home/vim/bundle/vim-snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule "home/vim/bundle/vim-surround"]
+	path = home/vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround

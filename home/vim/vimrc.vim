@@ -1,3 +1,6 @@
+" Pathogen load
+filetype off
+
 call pathogen#infect()    " Pathogen plugin (https://github.com/tpope/vim-pathogen)
 call pathogen#helptags()
 
@@ -100,4 +103,13 @@ function! CurTime()
   let ftime=ftime." ".strftime("%b,%d %y %H:%M:%S")
   return ftime
 endfunction
+
+" Python mode plugin
+" Enable pymode indentation
+let g:pymode_indent = 0
+let g:pymode_folding = 0
+let g:pymode_lint = 0
+
+" gundo 
+nnoremap <F5> :GundoToggle<CR>
 
