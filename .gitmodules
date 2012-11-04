@@ -49,9 +49,6 @@
 [submodule "home/vim/bundle/rope-vim"]
 	path = home/vim/bundle/rope-vim
 	url = https://github.com/klen/rope-vim
-[submodule "home/vim/bundle/syntastic"]
-	path = home/vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "home/vim/bundle/tagbar"]
 	path = home/vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
@@ -73,3 +70,6 @@
 [submodule "home/vim/bundle/vim-surround"]
 	path = home/vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "home/vim/bundle/vim-scala"]
+	path = home/vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git

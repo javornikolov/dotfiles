@@ -11,6 +11,8 @@ filetype plugin indent on " Enable filetype-specific indenting and plugins
 " Indentation - use hard TAB only (display it as 4 spaces)
 set tabstop=4 shiftwidth=4 noexpandtab
 
+" autocmd Filetype scala setlocal tabstop=4 shiftwidth=4 noexpandtab
+
 " augroup myfiletypes
 	" Clear old autocmds in group
 	" autocmd!
