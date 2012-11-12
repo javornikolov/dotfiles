@@ -12,6 +12,7 @@ filetype plugin indent on " Enable filetype-specific indenting and plugins
 set tabstop=4 shiftwidth=4 noexpandtab
 
 " autocmd Filetype scala setlocal tabstop=4 shiftwidth=4 noexpandtab
+autocmd Filetype ruby setlocal tabstop=4 shiftwidth=4 noexpandtab
 
 " augroup myfiletypes
 	" Clear old autocmds in group
