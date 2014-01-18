@@ -23,7 +23,6 @@ autocmd BufNewFile,BufRead *.vw set filetype=sql
 autocmd BufNewFile,BufRead *.mv set filetype=sql
 autocmd BufNewFile,BufRead *.tps set filetype=sql
 autocmd BufNewFile,BufRead *.tpb set filetype=sql
-autocmd BufNewFile,BufRead *.gradle set filetype=groovy
 
 " augroup myfiletypes
 	" Clear old autocmds in group
