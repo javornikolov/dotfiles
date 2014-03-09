@@ -90,3 +90,6 @@
 	path = home/vim/bundle/vim-gradle
 	url = https://github.com/tfnico/vim-gradle.git
 	ignore = dirty
+[submodule "home/vim/bundle/vim-airline"]
+	path = home/vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline

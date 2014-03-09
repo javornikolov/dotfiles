@@ -73,6 +73,7 @@ if has('gui_running')
 	" set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
 	" set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
 	set guifont=Inconsolata\-dz\ for\ Powerline\ 11
+	let g:airline_powerline_fonts = 1
 	" set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 11
 	" set guifont=Monaco\ for\ Powerline\ 10
 	" set guifont=Letter\ Gothic\ Line\ for\ Powerline\ 12
