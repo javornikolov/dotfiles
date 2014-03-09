@@ -17,6 +17,7 @@ autocmd Filetype ruby setlocal tabstop=4 shiftwidth=4 noexpandtab
 autocmd Filetype java setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd Filetype groovy setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd Filetype javascript setlocal tabstop=4 shiftwidth=4 expandtab
+autocmd Filetype ruby setlocal tabstop=2 shiftwidth=2 expandtab
 
 autocmd BufNewFile,BufRead *.tab set filetype=sql
 autocmd BufNewFile,BufRead *.vw set filetype=sql
