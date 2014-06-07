@@ -12,9 +12,9 @@ filetype plugin indent on " Enable filetype-specific indenting and plugins
 set tabstop=4 shiftwidth=4 noexpandtab
 
 " autocmd Filetype scala setlocal tabstop=4 shiftwidth=4 noexpandtab
-autocmd Filetype ruby setlocal tabstop=4 shiftwidth=4 noexpandtab
 
 autocmd Filetype java setlocal tabstop=4 shiftwidth=4 expandtab
+autocmd Filetype python setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd Filetype groovy setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd Filetype javascript setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd Filetype ruby setlocal tabstop=2 shiftwidth=2 expandtab
@@ -24,6 +24,8 @@ autocmd BufNewFile,BufRead *.vw set filetype=sql
 autocmd BufNewFile,BufRead *.mv set filetype=sql
 autocmd BufNewFile,BufRead *.tps set filetype=sql
 autocmd BufNewFile,BufRead *.tpb set filetype=sql
+autocmd BufNewFile,BufRead buildfile set filetype=ruby
+autocmd BufNewFile,BufRead *.pp set filetype=ruby
 
 " augroup myfiletypes
 	" Clear old autocmds in group
