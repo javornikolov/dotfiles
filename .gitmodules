@@ -34,3 +34,6 @@
 [submodule "home/vim/bundle/airline"]
 	path = home/vim/bundle/airline
 	url = https://github.com/bling/vim-airline
+[submodule "home/vim/bundle/table-mode"]
+	path = home/vim/bundle/table-mode
+	url = git@github.com:dhruvasagar/vim-table-mode.git
