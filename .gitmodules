@@ -25,9 +25,6 @@
 [submodule "home/vim/bundle/vim-ruby-conque"]
 	path = home/vim/bundle/vim-ruby-conque
 	url = https://github.com/skwp/vim-ruby-conque.git
-[submodule "home/vim/bundle/vim-powerline"]
-	path = home/vim/bundle/vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline
 [submodule "home/vim/bundle/vim-colors-solarized"]
 	path = home/vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -37,3 +34,6 @@
 [submodule "home/vim/bundle/table-mode"]
 	path = home/vim/bundle/table-mode
 	url = git@github.com:dhruvasagar/vim-table-mode.git
+[submodule "home/vim/bundle/vim-airline-themes"]
+	path = home/vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
