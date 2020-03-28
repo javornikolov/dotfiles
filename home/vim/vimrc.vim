@@ -95,3 +95,6 @@ set backupdir=~/.backup//
 " indenting text
 vnoremap < <gv
 vnoremap > >gv
+
+" ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
