@@ -75,7 +75,7 @@ endif
 
 syntax enable
 let g:solarized_visibility = 'low'
-colorscheme solarized
+colorscheme solarized8
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 

@@ -40,3 +40,6 @@
 [submodule "home/vim/bundle/vim-terraform"]
 	path = home/vim/bundle/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "home/vim/bundle/vim-solarized8"]
+	path = home/vim/bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
