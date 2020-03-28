@@ -21,7 +21,7 @@
 	url = https://github.com/altercation/solarized.git
 [submodule "home/vim/bundle/airline"]
 	path = home/vim/bundle/airline
-	url = https://github.com/bling/vim-airline
+	url = https://github.com/vim-airline/vim-airline
 [submodule "home/vim/bundle/table-mode"]
 	path = home/vim/bundle/table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode.git
@@ -43,3 +43,6 @@
 [submodule "home/vim/bundle/vim-solarized8"]
 	path = home/vim/bundle/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8
+[submodule "home/vim/bundle/airline-themes"]
+	path = home/vim/bundle/airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
