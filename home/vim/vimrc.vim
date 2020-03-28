@@ -17,7 +17,10 @@ augroup myfiletypes
 	autocmd Filetype python setlocal tabstop=4 shiftwidth=4 expandtab
 	autocmd Filetype groovy setlocal tabstop=4 shiftwidth=4 expandtab
 	autocmd Filetype javascript setlocal tabstop=4 shiftwidth=4 expandtab
+	autocmd Filetype php setlocal tabstop=4 shiftwidth=4 expandtab
 	autocmd Filetype ruby,eruby,cucumber setlocal tabstop=2 shiftwidth=2 expandtab
+	autocmd Filetype yaml setlocal tabstop=2 shiftwidth=2 expandtab
+	autocmd Filetype terraform setlocal tabstop=2 shiftwidth=2 expandtab
 	autocmd BufNewFile,BufRead *.tab set filetype=sql
 	autocmd BufNewFile,BufRead *.vw set filetype=sql
 	autocmd BufNewFile,BufRead *.mv set filetype=sql
@@ -43,16 +46,19 @@ set showmatch     " set show matching parenthesis
 set nowrap        " Don't wrap lines
 set list          " Show spaces, tabs, new-lines
 
+set encoding=utf-8 " Necessary to show Unicode glyphs
+
+" Tab and End of line characters
+" set listchars=tab:▸\ ,eol:¬
+set listchars=tab:‣\ ,trail:·,precedes:«,extends:»,eol:¬
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
 let g:RspecBin = "rspec"
 " let g:RspecSplitHorizontal = 0
 
 let g:pandoc_no_folding = 1
-
-" Tab and End of line characters
-set listchars=tab:▸\ ,eol:¬
-"Invisible character colors
-highlight NonText guifg=#4a4a59
-highlight SpecialKey guifg=#4a4a59
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -76,7 +82,6 @@ colorscheme solarized
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Powerline
 set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
 " let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
 " let g:Powerline_symbols = 'fancy'
