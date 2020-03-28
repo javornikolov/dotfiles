@@ -103,3 +103,6 @@ vnoremap > >gv
 
 " ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Terraform
+let g:terraform_align=1

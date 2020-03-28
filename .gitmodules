@@ -37,3 +37,6 @@
 [submodule "home/vim/bundle/ctrlp.vim"]
 	path = home/vim/bundle/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "home/vim/bundle/vim-terraform"]
+	path = home/vim/bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
